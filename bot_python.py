@@ -38,6 +38,8 @@ class Bot(DesktopBot):
 
             # Aguardar para evitar sobrecarga de requisições
             self.wait(2)
+            
+            self.voltar_rendimentos_pagos_creditados()
 
     def navegar_inicial(self):
         
