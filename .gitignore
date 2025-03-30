@@ -1,0 +1,23 @@
+# Ignore arquivos do ambiente virtual
+venv/
+
+# Ignore arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+
+# Ignore arquivos do VS Code (caso use)
+.vscode/
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos criados pelo Docker
+*.pid

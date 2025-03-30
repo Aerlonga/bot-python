@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  botcity:
+    build: .
+    container_name: botcity-container
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
